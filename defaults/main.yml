@@ -1,6 +1,8 @@
 ---
 # defaults file for shariff-install
 http_proxy: ""
+app__shariff__package: "shariff-backend-php.tar.gz"
+app__shariff__home: "/srv/shariff-backend-php-${app__shariff__version}"
 #app__shariff__checksum: "f148be17b233194989cfde5ab9f64bd6bdb6e29239c4142f5712a7b32956bea6"
 #app__shariff__download_upstream: "https://github.com/heiseonline/shariff-backend-php/releases/download/3.0.1/shariff-backend-php.tar.gz"
 app__shariff__checksum: "0b61ad1e52e34beec253fb0a9e8efae0dbfae88bf480fc3863dfe292eeee2c3c"
