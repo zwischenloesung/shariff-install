@@ -28,7 +28,7 @@ Requirements
 * Ansible >2.0
 * On target host
  * Generic UNIX with FHS
- * PHP 5.6/7.0/7.1
+ * PHP (default config needs PHP 5.6/7.0/7.1, just change to older version if needed, shariff 3.0.1 supports PHP 5.4 for example)
 
 Role Variables
 --------------
