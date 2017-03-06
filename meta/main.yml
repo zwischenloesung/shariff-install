@@ -12,3 +12,5 @@ galaxy_info:
     - shariff
     - php
 
+dependencies:
+  - { role: zwischenloesung.yapkg, yapkg_group_name: 'php', yapkg_names: '{{ app__php__yapkg }}', ignore_errors: True }

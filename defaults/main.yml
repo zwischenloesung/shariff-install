@@ -12,3 +12,5 @@ app__shariff__download_upstream: "https://github.com/heiseonline/shariff-backend
 app__php__user: "www-php"
 app__php__group: "www-php"
 app__php__home: "/var/lib/php5"
+app__php__yapkg:
+  - 'php5-fpm'

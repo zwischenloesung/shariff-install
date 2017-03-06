@@ -41,6 +41,9 @@ Role Variables
 Dependencies
 ------------
 
+* Galaxy-Role: zwischenloesung.yapkg
+ * Will install the php5 provider on debian (default \[ 'php5-fpm' \] use app\_\_php\_\_yapkg to overwrite)
+
 Example Playbook
 ----------------
 
