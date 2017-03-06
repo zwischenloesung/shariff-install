@@ -1,6 +1,11 @@
 ---
 # tasks file for shariff-install
 #TODO depend on a separate PHP installation role?
+- name: Make sure the right group exists
+  group:
+    name: "{{ app__php__group }}"
+    system: yes
+
 - name: Make sure the right user exists
   user:
     name: "{{ app__php__user }}"
