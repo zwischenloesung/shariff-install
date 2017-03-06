@@ -26,6 +26,14 @@
     group: "{{ app__php__group }}"
     mode: "0644"
 
+- name: Create the shariff home directory
+  file:
+    path: "{{ app__shariff__home }}"
+    state: directory
+    mode: "0755"
+    owner: "root"
+    group: "root"
+
 - name: Unpack shariff
   unarchive:
     remote_src: yes
