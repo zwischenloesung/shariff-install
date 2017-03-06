@@ -11,7 +11,7 @@
     system: yes
 
 - name: Download the package
-  environement:
+  environment:
     http_proxy: "{{ http_proxy }}"
   get_url:
     checksum: "{{ app__shariff__checksum }}"
