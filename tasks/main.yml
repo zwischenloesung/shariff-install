@@ -29,7 +29,6 @@
 - name: Unpack shariff
   unarchive:
     remote_src: yes
-    copy: no
     creates: "{{ app__shariff__home }}/shariff.json"
     dest: "{{ app__shariff__home }}"
     src: "{{ app__shariff__base }}/{{ app__shariff__package }}"
