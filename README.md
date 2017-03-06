@@ -1,7 +1,7 @@
 Shariff-Install
 ===============
 
-The team at c't and heise developed a free and open piece of software providing a fair way to use social media buttons - without leaking all personal data of all visitors (see https://github.com/heiseonline/shariff).
+The teams at c't and heise developed a free and open piece of software providing a fair way to use social media buttons - without leaking all personal data of all visitors (see https://github.com/heiseonline/shariff).
 
 This role install the shariff-php backend onto your webserver.
 
