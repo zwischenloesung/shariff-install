@@ -5,6 +5,9 @@ The teams at c't and heise developed a free and open piece of software providing
 
 This role install the shariff-php backend onto your webserver.
 
+STATUS: alpha
+-------------
+
 TODO
 ----
 
