@@ -26,7 +26,7 @@
     group: "{{ app__php__group }}"
     mode: "0644"
 
-- name: Create the shariff home directory
+- name: Create the shariff installation directory
   file:
     path: "{{ app__shariff__target }}"
     state: directory
@@ -48,5 +48,16 @@
     mode: "0755"
     owner: "{{ app__php__user }}"
     group: "{{ app__php__group }}"
+
+- name: Check if this shariff installation can be enabled
+  stat:
+    path: '{{ app__shariff__home }}'
+  register: shariff_home_stat
+
+- name: Enable this shariff installation
+  file:
+    state: link
+    path: '{{ app__shariff__home }}'
+    src: '{{ app__shariff__target }}'
 
 #- name: Configure Shariff
