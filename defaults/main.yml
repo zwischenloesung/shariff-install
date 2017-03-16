@@ -12,6 +12,6 @@ app__shariff__checksum: "0b61ad1e52e34beec253fb0a9e8efae0dbfae88bf480fc3863dfe29
 app__shariff__download_upstream: "https://github.com/heiseonline/shariff-backend-php/releases/download/6.0.1/shariff-backend-php.tar.gz"
 app__php__user: "www-php"
 app__php__group: "www-php"
-app__php__home: "/var/lib/php5"
+app__php__home: "/var/lib/php5-fpm"
 app__php__yapkg:
   - 'php5-fpm'
