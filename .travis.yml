@@ -22,7 +22,7 @@ install:
   - printf '[defaults]\nroles_path=../' >ansible.cfg
 
   # Install ansible role dependencies
-  - ansible-galaxy install zwischenloesung.yapkg
+  - ansible-galaxy install inofix.yapkg
 
 script:
   # Basic role syntax check
